@@ -1,3 +1,17 @@
 Project Name: CS Beats
-Amy, Esther, Eve
+Group Name: 
+Group Members: Amy, Esther, Eve
 Period 7
+
+Description:
+
+CS Beats is a 2000s-themed rhythm game resembling the popular Roblox game Robeats. 
+
+There will be a start menu (with settings that include a background and volume selection menu) and a song selection menu (with three songs at an easy, medium, or hard difficulty).  
+
+The player will have an avatar that they can customize by purchasing accessories from the store with stars they gain from completing songs at different difficulties. More difficult songs will reward more stars and unlock more difficult songs. 
+
+To play, the player will press one or more of the four arrow keys when the arrows slide down the screen and overlap with the corresponding arrow outlines. Depending on the arrow key that is pressed, the player's avatar will strike a different pose on the stage. 
+
+Libraries Included:
+- Sound Library 
