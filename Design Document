@@ -18,52 +18,55 @@ We will be using the Sound library for Processing to play songs and generate arr
 ## UML DIAGRAM
 
 (insert diagrams)
-- Play class
-    - Arrow class
-        - Functions
-            - song
-            - Arrow image
-            - Arrow direction
-            - How arrow moves
-            - Pvector (force) -> work it out based on bpm
-            - physically draws arrows
-        - Instance variables
-            - speed Pvector-> probably a double
-            - coordinates of arrow
-            - dull arrow
-            - accuracy increment
-        - Method
-            - draw arrow
-            - force act on arrow
+- Song class
     - Functions
-        - checks progress for specific song and how many stars your at
-        - displays progress
-        - displays current scores
-        - potential combo checker
+        - display each song and corresponds with arrow class
     - Instance variables
-        - progress checker (percentage of song done)
-        - stars
-        - accuracy increment -> feeds info to arrow class
-        - frame rate
-- Main menu class
-    - Song class
+        - name
+        - beat detector -> feeds the speed to the arrow class
+        - Description
+        - difficulty rating/stars
+        - song -> sound library
+        - volume setting
+    - Play class
+        - Arrow class
+            - Functions
+                - song
+                - Arrow image
+                - Arrow direction
+                - How arrow moves
+                - Pvector (force) -> work it out based on bpm
+                - physically draws arrows
+            - Instance variables
+                - speed Pvector-> probably a double
+                - coordinates of arrow
+                - dull arrow
+                - accuracy increment
+            - Method
+                - draw arrow
+                - force act on arrow
         - Functions
-            - display each song and corresponds with arrow class
+            - checks progress for specific song and how many stars your at
+            - displays progress
+            - displays current scores
+            - potential combo checker
         - Instance variables
-            - name
-            - beat detector -> feeds the speed to the arrow class
-            - Description
-            - difficulty rating/stars
-            - song -> sound library
-    - display class
-        - Functions
-            - display the songs
-            - play songs when they're scrolled onto
-            - background
-        - Instance variables
-            - array of songs
-            - array of difficulties
-            - volume setting    
+            - progress checker (percentage of song done)
+            - stars
+            - accuracy increment -> feeds info to arrow class
+            - frame rate
+    - Main menu class
+        - display class
+            - Functions
+                - display the songs
+                - play songs when they're scrolled onto
+                - background
+            - Instance variables
+                - array of songs
+                - array of difficulties
+                - volume setting    
+                - boolean song clicked?
+    - *if we have time do the avatar and combos/score multiplier in the play class and the shop in the main menu class*
 
 ## HOW DOES IT WORK? 
 
