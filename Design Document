@@ -2,7 +2,7 @@
 
 Period: 7
 Group Members: Amy, Esther, Eve
-Group Name: AEIOU (someone please change this)
+Group Name: G6
 Project Name: CS Beats
 
 ## DESCRIPTION
@@ -18,6 +18,52 @@ We will be using the Sound library for Processing to play songs and generate arr
 ## UML DIAGRAM
 
 (insert diagrams)
+- Play class
+    - Arrow class
+        - Functions
+            - song
+            - Arrow image
+            - Arrow direction
+            - How arrow moves
+            - Pvector (force) -> work it out based on bpm
+            - physically draws arrows
+        - Instance variables
+            - speed Pvector-> probably a double
+            - coordinates of arrow
+            - dull arrow
+            - accuracy increment
+        - Method
+            - draw arrow
+            - force act on arrow
+    - Functions
+        - checks progress for specific song and how many stars your at
+        - displays progress
+        - displays current scores
+        - potential combo checker
+    - Instance variables
+        - progress checker (percentage of song done)
+        - stars
+        - accuracy increment -> feeds info to arrow class
+        - frame rate
+- Main menu class
+    - Song class
+        - Functions
+            - display each song and corresponds with arrow class
+        - Instance variables
+            - name
+            - beat detector -> feeds the speed to the arrow class
+            - Description
+            - difficulty rating/stars
+            - song -> sound library
+    - display class
+        - Functions
+            - display the songs
+            - play songs when they're scrolled onto
+            - background
+        - Instance variables
+            - array of songs
+            - array of difficulties
+            - volume setting    
 
 ## HOW DOES IT WORK? 
 
